@@ -15,5 +15,7 @@ function checkHeatIndex() {
         window.alert('Heat Index: 38-41. Status: Very Hot/Caution');   
     } else if (temperature >= 36 && humidity >= 70 && humidity < 101) {
         window.alert('Heat Index: ≥ 42. Status: Extreme Heat/Danger');
+    } else {
+        window.alert('Invalid');
     }
 }
