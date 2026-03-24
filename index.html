@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4 Drill 2</title>
+    <style>
+        body {
+            background-image:url(https://wallpapers.com/images/hd/color-background-kl7ssi4hdvcgqwvj.jpg);
+            background-size: cover;
+            background-size: 150%, 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Noto Sans, sans-serif;
+        }
+        div {
+            text-align: center; 
+        }
+        input {
+            padding: 10px 25px; 
+            border: 2px solid rgb(175, 162, 199); 
+            border-radius: 5px; 
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <br><div style="background: linear-gradient(0deg, #ffffff 0%, #aaa19d 100%); padding: 50px; border-radius: 10px; max-width: 400px; margin: auto; color: #2d1005;"><br>
+        <h1>Heat Index Checker</h1>
+        <p>Input the temperature (°C) and humidity (%), then click Check to see the heat index and its status</p>
+        <p>Degree in °C</p>
+        <input type="number" id="input1" placeholder="Input degree value"><br>
+        <p>Humidity in %</p>
+        <input type="number" id="input2" placeholder="Input percentage value"><br><br>
+        <input type="button" onclick="checkHeatIndex()" value="Check">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
